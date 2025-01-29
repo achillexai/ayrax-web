@@ -8,19 +8,6 @@ import { useTheme } from "next-themes";
 import { StoreButton } from "@/components/ui/store-button";
 import { cn } from "@/lib/utils";
 
-interface HeroAction {
-  text: string;
-  href: string;
-  icon?: React.ReactNode;
-  variant?:
-    | "link"
-    | "default"
-    | "outline"
-    | "secondary"
-    | "destructive"
-    | "ghost";
-}
-
 interface HeroProps {
   badge?: {
     text: string;
