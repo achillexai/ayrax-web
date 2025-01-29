@@ -50,7 +50,7 @@ export default function Features() {
       content: (
         <div>
           <p className="text-neutral-200 text-lg font-normal mb-4">
-            Your data's safety is our top priority. Our app employs
+            Your data&apos;s safety is our top priority. Our app employs
             state-of-the-art security measures to protect your information.
           </p>
           <div className="flex">

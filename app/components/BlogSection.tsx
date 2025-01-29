@@ -45,7 +45,7 @@ export default function BlogSection() {
             </h2>
             <p className="text-xl font-medium text-gray-300/80 max-w-3xl mx-auto">
               Discover The Tools Designed To Streamline Your Sales Process And
-              Maximize Your Team's Productivity
+              Maximize Your Team&apos;s Productivity
             </p>
           </div>
 

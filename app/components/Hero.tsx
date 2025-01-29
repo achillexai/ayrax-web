@@ -1,7 +1,6 @@
 "use client";
 
 import { HeroSection } from "@/components/hero-section";
-import { Icons } from "@/components/ui/icons";
 
 export function Hero() {
   return (
