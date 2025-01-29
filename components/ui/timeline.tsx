@@ -15,14 +15,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   useEffect(() => {
     if (ref.current && containerRef.current) {
       const containerHeight =
-        containerRef.current.getBoundingClientRect().height;
+        containerRef.current.getBoundingClientRect().height * 0.8; // Reduce height by 20%
       setHeight(containerHeight);
     }
   }, [ref, data]);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 0%", "end 100%"], // Updated offset
+    offset: ["start 20%", "end 80%"], // Adjusted offset for shorter timeline
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
