@@ -32,13 +32,10 @@ export function TestimonialsSection({
       <div className="mx-auto flex max-w-container flex-col items-center gap-4 text-center sm:gap-16">
         {/* Testimonial row */}
         <div className="flex flex-col items-center gap-4 px-4 sm:gap-8">
-          <h1
-            className="max-w-[720px] text-5xl bg-gradient-to-tl from-[#fff] via-[#387657] to-[#2d3732]
-          bg-clip-text text-transparent font-semibold leading-tight md:text-7xl sm:leading-tight"
-          >
+          <h1 className="max-w-[600px] text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-tr from-[#fff] via-[#387657] to-[#2d3732] bg-clip-text text-transparent">
             {title}
           </h1>
-          <p className="text-base max-w-[600px] font-medium text-gray-300 sm:text-xl">
+          <p className="text-xl font-medium text-gray-300/80 max-w-3xl mx-auto">
             {description}
           </p>
         </div>

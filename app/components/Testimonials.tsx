@@ -37,8 +37,8 @@ export default function Testimonials() {
   return (
     <div id="testimonials" className="overflow-x-hidden">
       <TestimonialsSection
-        title="Trusted by developers worldwide"
-        description="Join thousands of developers who are already building the future with our AI platform"
+        title="Trusted by users worldwide"
+        description="Join thousands of users who are already building the future with our AI platform"
         testimonials={testimonials}
       />
       <Glow variant="testimonialsRight" />
