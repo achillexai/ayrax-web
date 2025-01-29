@@ -15,7 +15,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   useEffect(() => {
     if (ref.current && containerRef.current) {
       const containerHeight =
-        containerRef.current.getBoundingClientRect().height * 0.8; // Reduce height by 20%
+        containerRef.current.getBoundingClientRect().height * 0.8; // Reduce height by 20% because of production instance
       setHeight(containerHeight);
     }
   }, [ref, data]);

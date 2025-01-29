@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="relative">
+    <footer className="relative mt-[220px]">
       {/* Background with blur effect */}
       <div className="absolute inset-0 bg-transparent backdrop-blur-xl" />
 

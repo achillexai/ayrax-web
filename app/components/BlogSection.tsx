@@ -36,16 +36,16 @@ const blogPosts: BlogPost[] = [
 
 export default function BlogSection() {
   return (
-    <div id="blog">
+    <div id="blog z-20 relative">
       <section className="py-16 md:py-32 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 md:mb-24">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-br from-[#fff] via-[#387657] to-[#2d3732] bg-clip-text text-transparent">
-              Read Resources Written By Professionals.
+              Read resources written by professionals
             </h2>
             <p className="text-xl font-medium text-gray-300/80 max-w-3xl mx-auto">
-              Discover The Tools Designed To Streamline Your Sales Process And
-              Maximize Your Team&apos;s Productivity
+              Discover the tools designed to streamline your sales process and
+              maximize your team&apos;s productivity.
             </p>
           </div>
 

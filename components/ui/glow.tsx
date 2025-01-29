@@ -12,7 +12,7 @@ const glowVariants = cva("absolute w-full", {
       center: "top-[50%]",
       featuresLeft: "-bottom-[1528px] left-[-900px]",
       testimonialsRight: "-bottom-[3000px] left-[-800px]",
-      ctaCenter: "-bottom-[-500px] left-[-800px]",
+      ctaCenter: "-bottom-[-300px] left-[-800px]",
     },
   },
   defaultVariants: {
