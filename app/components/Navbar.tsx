@@ -21,7 +21,7 @@ export default function Navbar() {
                 />
               </Link>
               <h1 className="font-semibold tracking-wider text-base sm:text-lg">
-                Ayrax
+                AyraX
               </h1>
             </div>
 
