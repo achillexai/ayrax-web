@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
               </h2>
               <p className="text-justify mb-4">We use your data to:</p>
               <p className="text-justify mb-2">
-                Provide, maintain, and improve AyraX's functionality.
+                Provide, maintain, and improve AyraX&apos;s functionality.
               </p>
               <p className="text-justify mb-2">
                 Personalize your experience and offer relevant features.
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">
-                7. Children's Privacy
+                7. Children&apos;s Privacy
               </h2>
               <p className="text-justify">
                 AyraX includes a kids-only login screen to ensure a secure
