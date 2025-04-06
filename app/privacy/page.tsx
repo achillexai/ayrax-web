@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 
 export default function PrivacyPolicy() {
@@ -13,7 +12,7 @@ export default function PrivacyPolicy() {
 
           <div className="text-sm text-gray-400 mb-8 text-center">
             <p>Effective Date: 25th February 2025</p>
-            <p>Last Updated: 25th February 2025</p>
+            <p>Last Updated: 6th April 2025</p>
           </div>
 
           <div className="space-y-8">
@@ -124,7 +123,21 @@ export default function PrivacyPolicy() {
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">
-                8. Changes to this Policy
+                8. Google Workspace APIs
+              </h2>
+              <p className="text-justify">
+                We hereby explicitly affirm that Google Workspace APIs are not
+                used to develop, improve, or train generalized/non-personalized
+                AI and/or ML models. Any integration with Google services is
+                solely for the purpose of providing specific functionality
+                within our application and not for AI/ML model development or
+                training.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">
+                9. Changes to this Policy
               </h2>
               <p className="text-justify">
                 We may update this Privacy Policy periodically. We will notify
@@ -133,7 +146,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">9. Contact Us</h2>
+              <h2 className="text-2xl font-semibold mb-4">10. Contact Us</h2>
               <p className="text-justify mb-4">
                 For any privacy-related concerns, contact us at:
               </p>
