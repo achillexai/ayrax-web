@@ -15,7 +15,7 @@ export default function Features() {
           </p>
           <div className="flex">
             <Image
-              src="/images/4.png"
+              src="/images/7.png"
               alt="User-friendly interface screenshot 1"
               width={500}
               height={500}
@@ -35,7 +35,7 @@ export default function Features() {
           </p>
           <div className="flex">
             <Image
-              src="/images/4.png"
+              src="/images/8.png"
               alt="User-friendly interface screenshot 2"
               width={500}
               height={800}
@@ -55,7 +55,7 @@ export default function Features() {
           </p>
           <div className="flex">
             <Image
-              src="/images/4.png"
+              src="/images/9.png"
               alt="User-friendly interface screenshot 1"
               width={500}
               height={800}
