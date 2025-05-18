@@ -15,8 +15,8 @@ export function Hero() {
       title="Build faster with beautiful components"
       description="Premium UI components built with React and Tailwind CSS. Save time and ship your next project faster with our ready-to-use components."
       image={{
-        light: "/images/4.png",
-        dark: "/images/4.png",
+        light: "/images/6.png",
+        dark: "/images/6.png",
         alt: "UI Components Preview",
       }}
     />
